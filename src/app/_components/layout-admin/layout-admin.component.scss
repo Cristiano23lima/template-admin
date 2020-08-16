@@ -1,0 +1,23 @@
+.wrap {
+  display: flex;
+}
+
+.sidebar-layout {
+  width: 15.625rem;
+  height: 100vh;
+}
+
+.container {
+  width: calc(100% - 15.625rem);
+  height: 100%;
+}
+
+.topbar-layout {
+  height: 70px;
+  width: 100%;
+}
+
+.content-layout {
+  height: calc(100vh - 70px);
+  width: 100%;
+}
