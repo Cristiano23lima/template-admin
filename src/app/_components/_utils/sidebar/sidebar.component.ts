@@ -6,7 +6,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./sidebar.component.scss"],
 })
 export class SidebarComponent implements OnInit {
-  color: string="white";
+  color: string = "white";
+  teste: any = {
+    height: 15,
+    width: 30,
+  };
   constructor() {}
 
   ngOnInit() {}

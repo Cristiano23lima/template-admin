@@ -1,1 +1,29 @@
-<div class="topbar"></div>
+<div class="topbar">
+  <div class="container-topbar">
+    <div class="bar-menu">
+      <div
+        (click)="expandirMenu()"
+        class="icon-bar-menu"
+        aria-label="Icone para expandir ou fechar o menu"
+        [inlineSVG]="'../../../../assets/icons/bar.svg'"
+      ></div>
+    </div>
+    <div class=""></div>
+  </div>
+  <div class="perfil-usuario">
+    <div class="avatar">
+      <img
+        src="https://cdn.mensagenscomamor.com/content/images/p000000147.jpg?v=0&w=400&h=225&c=1"
+        alt="avatar"
+      />
+    </div>
+    <div class="info">
+      <span>Cristiano</span>
+      <div
+        class="icon-dropdown"
+        aria-label="Dropdown"
+        [inlineSVG]="'../../../../assets/icons/down-arrow.svg'"
+      ></div>
+    </div>
+  </div>
+</div>
